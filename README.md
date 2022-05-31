@@ -6,7 +6,7 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ## 1. 개요
-- Pretrained 언어 모델인 [KLUE BERT-base]((https://github.com/KLUE-benchmark/KLUE)) 위에 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank]((https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv))을 활용하여 파인튜닝한 감정 분류 프로젝트
+- Pretrained 언어 모델인 [KLUE BERT-base](https://github.com/KLUE-benchmark/KLUE) 위에 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv)을 활용하여 파인튜닝한 감정 분류 프로젝트
 
 ## 2. Pretrained 언어 모델
 - KLUE BERT base([Github](https://github.com/KLUE-benchmark/KLUE)/[Hugging Face](https://huggingface.co/klue/bert-base))
@@ -17,6 +17,8 @@
 - 감정 라벨: Neutral(59.27%), Positive(28.22%), Negative(12.51%) 
 
 ![label_ratio](https://user-images.githubusercontent.com/80144296/171126744-b4215a97-afa4-4569-b56b-ac534541d6cc.png)
+
+* 0: Neutral, 1: Positive, 2: Negative
 
 ## 4. 파인튜닝 모델 성능
 ### 1) Confusion Matrix
