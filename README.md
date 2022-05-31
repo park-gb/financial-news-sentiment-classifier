@@ -34,11 +34,9 @@
 |Recall|0.852|
 |F1 Score|0.851|
 |ROC AUC Score|0.92|
-|κ|0.728|
-|MCC |0.729|
+|Cohen's Kappa Coefficient|0.728|
+|Matthews Correlation Coefficient  |0.729|
 |Log Loss|0.555|
-*κ: Cohen's Kappa Coefficient
-*MCC: Matthews Correlation Coefficient 
 
 ## 5. 전체 파일구조
 ``` bash
