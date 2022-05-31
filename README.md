@@ -15,6 +15,10 @@
 ## 3. 경제 뉴스기사 감정 데이터셋
 - 영문 데이터셋인 [Finance Phrase Bank](https://huggingface.co/datasets/financial_phrasebank)를 한국어로 번역하고 육안 검수한 데이터셋(출처: Github [@ukaria777](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv))
 - 데이터 개수: 경제 뉴스기사 내 4,846개 문장
+
+<img width="604" alt="sample_data" src="https://user-images.githubusercontent.com/80144296/171138476-694017b2-e8eb-4a0a-a4cf-fe342ca3bebb.png">
+
+
 - 감정 라벨: Neutral(59.27%), Positive(28.22%), Negative(12.51%) 
 
 ![label_ratio](https://user-images.githubusercontent.com/80144296/171126744-b4215a97-afa4-4569-b56b-ac534541d6cc.png)
