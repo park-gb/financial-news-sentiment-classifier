@@ -1,7 +1,7 @@
 # 한국어 경제 뉴스 기사 감정 분류
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -18,7 +18,7 @@
 
 ![label_ratio](https://user-images.githubusercontent.com/80144296/171126744-b4215a97-afa4-4569-b56b-ac534541d6cc.png)
 
-* 0: Neutral, 1: Positive, 2: Negative
+(라벨 정보) 0: Neutral, 1: Positive, 2: Negative
 
 ## 4. 파인튜닝 모델 성능
 ### 1) Confusion Matrix
@@ -28,7 +28,7 @@
 ### 2) Metrics
 
 |Metric|Score|
-|-|---------|-----|
+|--------|-----|
 |Accuracy|0.852|
 |Precision|0.851|
 |Recall|0.852|
