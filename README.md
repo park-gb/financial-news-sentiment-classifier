@@ -26,7 +26,7 @@
 │   LICENSE
 │   ├─data
 │   │      dataset.csv
-|   |      dataset_prep.csv
+│   │      dataset_prep.csv
 │   └─metric
 │         cl_report.csv
 │         metircs.csv
