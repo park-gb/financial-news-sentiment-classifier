@@ -1,5 +1,4 @@
 # 한국어 경제 뉴스 기사 감정 분류
-![Colab](https://user-images.githubusercontent.com/80144296/171107614-be32a03d-55a8-452e-9055-3d11452e40de.png)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
@@ -7,17 +6,39 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ## 1. 개요
-- 경제 뉴스 기사 문장의 감성(sentiment)이 긍정(positive), 중립(neutral), 부정인지 구분하는 텍스트 분류 프로젝트
-- 사전 학습 언어모델인 KLUE BERT-base와 경제 뉴스 기사의 감정 데이터가 라벨링된 오픈소스 데이터셋인 Finance Phrase Bank 활용
-- 런타임 환경: Google Colab Pro / GPU
+- Pretrained 언어 모델인 [KLUE BERT-base]((https://github.com/KLUE-benchmark/KLUE)) 위에 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank]((https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv))을 활용하여 파인튜닝한 감정 분류 프로젝트
 
-## 2. 사전 학습 언어모델(PLM)
-- KLUE BERT base(Github/Hugging Face)
+## 2. Pretrained 언어 모델
+- KLUE BERT base([Github](https://github.com/KLUE-benchmark/KLUE)/[Hugging Face](https://huggingface.co/klue/bert-base))
 
-## 3.
+## 3. 경제 뉴스기사 감정 데이터셋
+- 영문 데이터셋인 [Finance Phrase Bank](https://huggingface.co/datasets/financial_phrasebank)를 한국어로 번역하고 육안 검수한 데이터셋(출처: Github [@ukaria777](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv))
+- 데이터 개수: 경제 뉴스기사 내 4,846개 문장
+- 감정 라벨: Neutral(59.27%), Positive(28.22%), Negative(12.51%) 
 
+![label_ratio](https://user-images.githubusercontent.com/80144296/171126744-b4215a97-afa4-4569-b56b-ac534541d6cc.png)
 
-## 4. 전체 파일구조
+## 4. 파인튜닝 모델 성능
+### 1) Confusion Matrix
+
+![cf_matrix](https://user-images.githubusercontent.com/80144296/171126977-5f535777-2c91-42b4-a3c5-71d3b6c6d498.png)
+
+### 2) Metrics
+
+|Metric|Score|
+|-|---------|-----|
+|Accuracy|0.852|
+|Precision|0.851|
+|Recall|0.852|
+|F1 Score|0.851|
+|ROC AUC Score|0.92|
+|κ|0.728|
+|MCC |0.729|
+|Log Loss|0.555|
+*κ: Cohen's Kappa Coefficient
+*MCC: Matthews Correlation Coefficient 
+
+## 5. 전체 파일구조
 ``` bash
 ├─financial-news-sentiment-classifier
 │   Sentiment_Classifier_for_Kor_Financial_News
@@ -31,7 +52,7 @@
 │         metircs.csv
 ```
 
-## 참고문헌
+## 참고
 - 개인 블로그(Tistory): https://heytech.tistory.com
 - Gitgub: https://github.com/park-gb/financial-news-sentiment-classifier
 
