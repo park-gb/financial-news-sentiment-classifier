@@ -57,9 +57,8 @@
 │         metircs.csv
 ```
 
-## 참고
-- 개인 블로그(Tistory): https://heytech.tistory.com
-- Gitgub: https://github.com/park-gb/financial-news-sentiment-classifier
+## 부연 설명
+- 개인 블로그(Tistory): [https://heytech.tistory.com](https://heytech.tistory.com/394)
 
 ## 📝 License
 ```
