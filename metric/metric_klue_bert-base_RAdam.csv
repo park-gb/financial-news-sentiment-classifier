@@ -1,2 +1,0 @@
-,PLM,Optimizer,Accuracy,Precision,Recall,F1_score,ROC_AUC_score,Cohen_kappa_coef,Matthews_corrcoef,Log_loss
-score,klue_bert-base,RAdam,0.847,0.846,0.847,0.846,0.93,0.721,0.721,0.457
