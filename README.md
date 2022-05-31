@@ -8,17 +8,16 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ## 1. 개요
 - 경제 뉴스 기사 문장의 감성(sentiment)이 긍정(positive), 중립(neutral), 부정인지 구분하는 텍스트 분류 프로젝트
-- 사전 학습 언어모델인 KLUE BERT-base와 경제 뉴스 기사의 감정 데이터가 라벨링된 오픈소스 데이터셋인 [Finance Phrase Bank](Finance Phrase Bank) 활용
+- 사전 학습 언어모델인 KLUE BERT-base와 경제 뉴스 기사의 감정 데이터가 라벨링된 오픈소스 데이터셋인 Finance Phrase Bank 활용
+- 런타임 환경: Google Colab Pro / GPU
 
 ## 2. 사전 학습 언어모델(PLM)
-- App 사용자 리뷰 데이터 수집
-  - 리뷰 등록일
-  - 작성자 닉네임
-  - 리뷰 평점
-  - 리뷰 내용
-\
+- KLUE BERT base(Github/Hugging Face)
 
-3# 4. 전체 파일구조
+## 3.
+
+
+## 4. 전체 파일구조
 ``` bash
 ├─financial-news-sentiment-classifier
 │   Sentiment_Classifier_for_Kor_Financial_News
