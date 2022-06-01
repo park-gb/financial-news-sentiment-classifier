@@ -57,8 +57,8 @@
 │         metircs.csv
 ```
 
-## 부연 설명
-- 개인 블로그(Tistory): [https://heytech.tistory.com](https://heytech.tistory.com/394)
+## 프로젝트 상세 설명
+- 개인 블로그(Tistory): https://heytech.tistory.com/394
 
 ## 📝 License
 ```
