@@ -10,7 +10,7 @@
 - 개발 환경: [Google Colab Pro / GPU](https://colab.research.google.com/signup)
 
 ## 2. Pretrained 언어 모델
-- KLUE BERT base([Github](https://github.com/KLUE-benchmark/KLUE)/[Hugging Face](https://huggingface.co/klue/bert-base))
+- KLUE BERT base([Github](https://github.com/KLUE-benchmark/KLUE)/[Hugging Face](https://huggingface.co/klue/bert-base)/[논문](https://arxiv.org/pdf/2105.09680.pdf))
 
 ## 3. 경제 뉴스기사 감정 데이터셋
 - 영문 데이터셋인 [Finance Phrase Bank](https://huggingface.co/datasets/financial_phrasebank)를 한국어로 번역하고 육안 검수한 데이터셋(출처: Github [@ukaria777](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv))
