@@ -52,6 +52,10 @@
 │   ├─data
 │   │      dataset.csv
 │   │      dataset_prep.csv
+│   ├─figure
+│   │      cf_matrix.png
+│   │      label_number.png
+│   │      label_ratio.png
 │   └─metric
 │         cl_report.csv
 │         metircs.csv
