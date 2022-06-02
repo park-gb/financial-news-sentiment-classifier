@@ -46,7 +46,7 @@
 ## 5. 전체 파일구조
 ``` bash
 ├─financial-news-sentiment-classifier
-│   Sentiment_Classifier_for_Kor_Financial_News
+│   sentiment_classifier.ipynb
 │   README.md
 │   LICENSE
 │   ├─data
