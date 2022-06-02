@@ -8,7 +8,7 @@
 ## 1. 개요
 - Pretrained 언어 모델인 [KLUE BERT-base](https://github.com/KLUE-benchmark/KLUE) 위에 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv)을 활용하여 파인튜닝한 감정 분류 프로젝트
 - 개발 환경: [Google Colab Pro / GPU](https://colab.research.google.com/signup)
-- 프로젝트 상세 설명: 개인 블로그 https://heytech.tistory.com/394
+- 프로젝트 상세 설명: [개인 블로그](https://heytech.tistory.com/394)
 
 ## 2. Pretrained 언어 모델
 - KLUE BERT base([Github](https://github.com/KLUE-benchmark/KLUE)/[Hugging Face](https://huggingface.co/klue/bert-base)/[논문](https://arxiv.org/pdf/2105.09680.pdf))
