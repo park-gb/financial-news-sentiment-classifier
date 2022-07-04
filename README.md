@@ -6,7 +6,7 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ## 1. 개요
-- Pretrained 언어 모델인 [KLUE BERT-base](https://github.com/KLUE-benchmark/KLUE) 위에 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv)을 활용하여 파인튜닝한 감정 분류 프로젝트
+- Pretrained 언어 모델인 [KLUE BERT-base](https://github.com/KLUE-benchmark/KLUE)를 기반으로 경제 뉴스 기사의 감정이 라벨링된 데이터셋 [한국어 버전의 Finance Phrase Bank](https://github.com/ukairia777/finance_sentiment_corpus/blob/main/finance_data.csv)을 활용하여 파인튜닝한 감정 분류 프로젝트
 - 개발 환경: [Google Colab Pro / GPU](https://colab.research.google.com/signup)
 - 프로젝트 상세 설명: [개인 블로그](https://heytech.tistory.com/394)
 
@@ -20,7 +20,7 @@
 <img width="604" alt="sample_data" src="https://user-images.githubusercontent.com/80144296/171138476-694017b2-e8eb-4a0a-a4cf-fe342ca3bebb.png">
 
 
-- 감정 라벨: Neutral(59.27%), Positive(28.22%), Negative(12.51%) 
+- 감정 라벨: Neutral(59.27%), Positive(28.22%), Negative(12.51%)
 
 ![label_ratio](https://user-images.githubusercontent.com/80144296/171126744-b4215a97-afa4-4569-b56b-ac534541d6cc.png)
 
